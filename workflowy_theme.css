@@ -1,0 +1,166 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+  
+  /* border 
+  .edge, .corner {
+    display: none;
+  }*/
+
+
+  /* edit window background */
+  #documentView {
+    background: #d0d0d0;
+  }
+
+
+ .page {
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+  }
+
+
+  .contentTag {
+    font-weight: bold !important;
+    padding: 2px !important; 
+    margin-left: 6px !important;
+    color: #000 !important; /* grey by default(#888888)*/
+    font-size: 11px !important;
+    /*background-color: #dcdcdc; */
+    background-color: #ebe5ff;
+  }
+
+
+  /* Tags are in blue background and white text
+  .content .contentTag, .nameAnimated .contentTag {
+    border-radius: 3px;
+    color: black;
+   
+    background-color: #d8e1ec;
+
+    font-weight: 200;
+    margin: 0 0px;
+    padding: 0 0px;
+  }*/
+  
+
+
+  /* No underline in Tags */
+  .content .contentTagText, .nameAnimated .contentTagText {
+    text-decoration: none;
+  }
+
+
+
+  /*more spacing between bullets, default is 5px  
+  .selected .project > .name > .content {
+    margin-bottom: 7px;
+  }*/
+
+
+
+  /* Underline is now a highlightning marker */
+  .contentUnderline {
+    text-decoration: inherit;
+    background-color : #f4e0e5;
+    /* background-color: #ffd4cb */
+    /* background-color: #fffab4; */
+  }
+
+
+  /* Bold */
+  .contentBold {
+    border-radius: 5px;
+    text-decoration: inherit;
+    background-color : #dcdcdc;
+    /* background-color :  #E5E4E4; */
+    margin: 5 5px;
+
+    /* background-color: #ffd4cb */
+    /* background-color: #fffab4; */
+  }
+
+
+  /* link color in nodes*/
+  .name > .content > .contentLink {
+    color: #546FD0 !important;
+  }
+
+
+  /* note color */
+  .notes > .content {
+    color: #3F3F3F !important;
+  }
+
+
+  .contentLink {
+    color: #546FD0 !important; 
+    margin-right: 6px !important;
+    font-size: 13px !important;
+  }
+
+  /* link color in notes
+  .notes > .content > .contentLink {
+   color: #546FD0 !important; 
+   margin-right: 6px !important;
+   font-size: 12px !important;
+
+  } */
+
+  /* Bold top level item... 
+  div.project.selected > div.children > div > div.name div.content {
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 2px;
+  }
+*/
+
+
+
+  /* ...except for tags */
+  div.project.selected > div.children > div > div.name div.content .contentTag {
+    font-weight: normal;
+  }
+
+/* Saved / starred items appear on the side of the page, instead of at the bottom */
+  #savedViewHUDPageContainer {
+    padding: 20px 10px;
+    display: block;
+  }
+  
+  #savedViewHUD {
+    bottom: auto;
+    left: 0px;
+    top: 30px;
+    width: 220px;
+    height: 100%;
+  }
+  
+  .savedViewPage {
+    width: auto;
+    height: auto;
+    margin: 3px 0;
+    padding: 10px 10px 7px;
+    display: block;
+  }
+  
+  .savedViewPage.selectedSavedViewPage {
+    top: 0;
+  }
+  
+  .savedViewPageSearchStringContainer {
+    margin-top: 3px;
+  }
+  
+  .savedViewPageFader {
+    display: none;
+  }
+
+  /* remove links at bottom
+  #getMoreSpaceButtonTopLeft, #bottomLinks, #proPitchBottomRight, .weekly-report__support .freeOnly {display:none}
+  */
+
+  .siteSlogan {font-size: 0;}
+  .siteSlogan::after {font-size: 12px; content: "Non Progredi, Est Regredi. Carpe Diem."}
