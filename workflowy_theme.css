@@ -32,6 +32,14 @@
     background-color: #ebe5ff;
   }
 
+  .contentTag[title*="important"] {
+    color: #a32b09 !important;
+  }
+
+  .contentTag[title*="urgent"] {
+    color: #a32b09 !important;
+  }
+
 
   /* Tags are in blue background and white text
   .content .contentTag, .nameAnimated .contentTag {
