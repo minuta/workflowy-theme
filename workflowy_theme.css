@@ -28,8 +28,8 @@
     margin-left: 6px !important;
     color: #000 !important; /* grey by default(#888888)*/
     font-size: 11px !important;
-    /*background-color: #dcdcdc; */
-    background-color: #ebe5ff;
+    background-color: #dcdcdc; 
+    /*background-color: #ebe5ff;*/
   }
 
   .contentTag[title*="important"] {
