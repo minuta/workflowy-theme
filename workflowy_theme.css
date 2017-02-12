@@ -79,16 +79,12 @@
 
 
   /* Bold */
-  .contentBold {
+  /*.contentBold {
     border-radius: 5px;
     text-decoration: inherit;
     background-color : #dcdcdc;
-    /* background-color :  #E5E4E4; */
     margin: 5 5px;
-
-    /* background-color: #ffd4cb */
-    /* background-color: #fffab4; */
-  }
+  }*/
 
 
   /* link color in nodes*/
