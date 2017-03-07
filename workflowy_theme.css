@@ -23,12 +23,12 @@
 
 
   .contentTag {
-    font-weight: bold !important;
+    /* font-weight: bold !important; */
     padding: 2px !important; 
     margin-left: 6px !important;
-    color: #000 !important; /* grey by default(#888888)*/
+    color: #371FF0 !important; /* grey by default(#888888)*/
     font-size: 11px !important;
-    background-color: #dcdcdc; 
+   /* background-color: #dcdcdc; *
     /*background-color: #ebe5ff;*/
   }
 
