@@ -62,10 +62,10 @@
 
 
 
-  /*more spacing between bullets, default is 5px  
+  /*more spacing between bullets, default is 5px  */
   .selected .project > .name > .content {
-    margin-bottom: 7px;
-  }*/
+    margin-bottom: 4px;
+  }
 
 
 
