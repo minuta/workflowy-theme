@@ -40,6 +40,20 @@
     color: #a32b09 !important;
   }
 
+ .contentTag[title*="good"] {
+    color: black !important;
+	background-color: #b8edb1;
+  }
+
+ .contentTag[title*="bad"] {
+    color: black !important;
+	background-color: #fcabab;
+  }
+
+ .contentTag[title*="indifferent"] {
+    color: black !important;
+	background-color: #cecccc;
+  }
 
   /* Tags are in blue background and white text
   .content .contentTag, .nameAnimated .contentTag {
