@@ -86,7 +86,7 @@
   /* Underline is now a highlightning marker */
   .contentUnderline {
     text-decoration: inherit;
-    background-color : #f4e0e5;
+    background-color : #feffc9;
     /* background-color: #ffd4cb */
     /* background-color: #fffab4; */
   }
