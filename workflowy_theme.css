@@ -42,17 +42,17 @@
 
  .contentTag[title*="good"] {
     color: black !important;
-	background-color: #b8edb1;
+    background-color: #b8edb1;
   }
 
  .contentTag[title*="bad"] {
     color: black !important;
-	background-color: #fcabab;
+    background-color: #fcabab;
   }
 
  .contentTag[title*="indifferent"] {
     color: black !important;
-	background-color: #cecccc;
+    background-color: #cecccc;
   }
 
   /* Tags are in blue background and white text
@@ -87,10 +87,13 @@
   .contentUnderline {
     text-decoration: inherit;
     background-color : #feffc9;
-    /* background-color: #ffd4cb */
-    /* background-color: #fffab4; */
   }
 
+ /* Italic is now a highlightning marker */
+  .contentItalic {
+    font-style: normal;
+    background-color : #f4e0e5;
+  }
 
   /* Bold */
   /*.contentBold {
