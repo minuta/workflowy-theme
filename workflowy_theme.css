@@ -40,12 +40,22 @@
     color: #a32b09 !important;
   }
 
- .contentTag[title*="good"] {
+  .contentTag[title*="good"] {
     color: black !important;
     background-color: #b8edb1;
   }
 
- .contentTag[title*="bad"] {
+  .contentTag[title*="successful"] {
+    color: black !important;
+    background-color: #b8edb1;
+  }
+
+  .contentTag[title*="bad"] {
+    color: black !important;
+    background-color: #fcabab;
+  }
+
+  .contentTag[title*="failed"] {
     color: black !important;
     background-color: #fcabab;
   }
@@ -54,6 +64,12 @@
     color: black !important;
     background-color: #cecccc;
   }
+
+ .contentTag[title*="inProgress"] {
+    color: black !important;
+    background-color: #cecccc;
+  }
+
 
   /* Tags are in blue background and white text
   .content .contentTag, .nameAnimated .contentTag {
