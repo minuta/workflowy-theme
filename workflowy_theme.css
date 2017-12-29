@@ -55,6 +55,17 @@
     background-color: #fcabab;
   }
 
+  .contentTag[title*="done"] {
+    color: black !important;
+    background-color: #00cc00;
+  }
+
+
+  .contentTag[title*="incomplete"] {
+    color: black !important;
+    background-color: #ccff66;
+  }
+
   .contentTag[title*="failed"] {
     color: black !important;
     background-color: #fcabab;
