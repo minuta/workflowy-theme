@@ -22,6 +22,20 @@
   }
 
 
+
+/* bullets reinvented */
+  /* make smaller */
+  .bullet {
+    height: 12px;
+    width: 12px;
+	top : 3px;
+	bottom: 3px;					
+/*    text-indent: 3px;
+    line-height: 15px;
+	line-width:1px;					 */
+  }
+
+
   .contentTag {
     /* font-weight: bold !important; */
     padding: 2px !important; 
@@ -41,6 +55,11 @@
   }
 
   .contentTag[title*="good"] {
+    color: black !important;
+    background-color: #b8edb1;
+  }
+
+  .contentTag[title*="record"] {
     color: black !important;
     background-color: #b8edb1;
   }
