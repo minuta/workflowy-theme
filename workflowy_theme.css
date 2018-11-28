@@ -28,8 +28,8 @@
   .bullet {
     height: 12px;
     width: 12px;
-	top : 3px;
-	bottom: 3px;					
+	top : 4px;      /* 10px for Beta */
+	bottom: 4px;	/* 10px for Beta */				
 /*    text-indent: 3px;
     line-height: 15px;
 	line-width:1px;					 */
