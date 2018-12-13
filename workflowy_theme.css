@@ -14,7 +14,7 @@
 
 
  .page {
-    background: #ffffff;
+    background: #f7f7f7;
     border-radius: 10px;
     border: 1px solid #666666;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -28,8 +28,8 @@
   .bullet {
     height: 12px;
     width: 12px;
-	top : 4px;      /* 10px for Beta */
-	bottom: 4px;	/* 10px for Beta */				
+	top : 10px;
+	bottom: 10px;					
 /*    text-indent: 3px;
     line-height: 15px;
 	line-width:1px;					 */
@@ -130,13 +130,13 @@
 
 
   /* Underline is now a highlightning marker */
-  .contentUnderline {
+  .content u {
     text-decoration: inherit;
     background-color : #feffc9;
   }
 
  /* Italic is now a highlightning marker */
-  .contentItalic {
+  .content i {
     font-style: normal;
     background-color : #f4e0e5;
   }
