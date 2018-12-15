@@ -14,7 +14,7 @@
 
 
  .page {
-    background: #f7f7f7;
+    background: #ffffff;
     border-radius: 10px;
     border: 1px solid #666666;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -51,7 +51,9 @@
   }
 
   .contentTag[title*="urgent"] {
-    color: #a32b09 !important;
+    color: black !important;
+    background-color: #fcabab;
+
   }
 
   .contentTag[title*="good"] {
@@ -98,6 +100,11 @@
  .contentTag[title*="inProgress"] {
     color: black !important;
     background-color: #cecccc;
+  }
+
+  .contentTag[title*="MIT"] {
+     color: black !important;
+     background-color: #eae586;
   }
 
 
