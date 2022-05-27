@@ -7,18 +7,23 @@
   }*/
 
 
+  body
+  {
+    background-color: #9fa1a0  !important;
+  }
+
+
   /* edit window background */
   #documentView {
-    background: #d0d0d0;
+    background: #5C5B61;
   }
 
 
  .page {
-    background: #ffffff;
+    background: #fff;
     border-radius: 10px;
-    border: 1px solid #666666;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-
+    border: 1px solid #393636;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   }
 
 
